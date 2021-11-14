@@ -41,12 +41,6 @@ function displayAnswer(data) {
   console.log(data);
 };
 
-// let notAQRes = ["That's not proper grammar!", "Missing something bro.", "???"];
-// for (let i = 0; i < isQuestion.length; i++) {
-
-// }
-
-
 function notAQ() {
   let notAQRes = ["That's not proper grammar!", "Missing something bro.", "???"];
   let arrayMath = Math.floor(Math.random() * notAQRes.length)
@@ -56,8 +50,6 @@ function notAQ() {
   docBody.appendChild(notAQuestion);
 }
 
-
-// Needs a function to remove previous GIF and data in input
 function removeOldImages() {
   // picContainer.innerHTML = '';
   while (answerDiv.firstChild)
