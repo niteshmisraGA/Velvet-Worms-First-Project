@@ -4,6 +4,24 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-image: url('/17520.jpg');
+}
+h5 {
+  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+h1 {
+  justify-content: left;
+  color: whitesmoke;
+  font-family: 'praise', 'sans-serif';
+  font-size: 100px;
+  text-shadow: -5px 0 black, 0 1px black, 5px 0 black, 0 -1px black;
+  margin-top: 5px;
+  margin-bottom: -2px;
+}
 form {
   display: flex;
   max-width: 400px;
@@ -12,61 +30,62 @@ form {
   text-align: center;
   flex-wrap: wrap;
 }
+input{
+  font-size: x-large;
+  padding: 10px;
+  width: 265px;
+}
 button{
   display: flex;
   width: 75px;
   text-align: center;
   font-size: 12px;
 }
-h1 {
-  justify-content: left;
-  color: whitesmoke;
-  font-family: 'praise', 'sans-serif';
-  font-size: 100px ;
-}
 p {
-  color:  hotpink;
+  color: whitesmoke;
   font-size: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin: 10px;
   bottom: 0;
   left: 0;
-  position: absolute;
 }
 .userQuestion{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body {
-  background-image: url('/17520.jpg');
-}
 .API-answer{
   margin-top: 50px;
   display: flex;
   justify-content: center;
   text-align: center;
-  position: relative;
 }
-input{
-  font-size: x-large;
-  padding: 10px;
-  width: 265px;
+.notAQP{
+  font-size: 25px;
+  justify-content: center;
 }
+
+
 @media only screen and (max-width: 600px) {
-  h1{
+   h1{
     text-align: center;
+    text-justify: inter-word;
     width: 100%;
     font-size: 60px;
   }
+  h5{
+    text-align: center;
+    text-justify: inter-word;
+    margin-left: 0;
+  }
   .siteName{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
   }
   .API-answer{
-    max-width: 10%;
-    max-height: 10%;
+    display: flex;
+    justify-content: center;
   }
 }
-/* .userQuestion {
-  background-image: url('https://i.imgur.com/4Whzc9K.jpg');
-} */

@@ -1,9 +1,6 @@
-# Velvet-Worms-First-Project
-# Velvet-Worms-Project-1
-
 # Project Overview
 ## Project Name
-"Ask The Cosmos" or "Ask The Universe"
+"Ask The Universe"
 
 ## Project Description
 
@@ -101,4 +98,8 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Since the space that the GIFs occupy tends to vary GIF-to-GIF, centering the answer on them was near impossible.  I instead chose to stack the answer and GIF (API data). It ended up looking cleaner anyway in my opinion.
+
+ The "slogan" located below the sites name was originally going to live elsewhere on the site, but it looks much cleaner as a sort of subtitle.
+
+ The input box was going to read "What's on your mind?" But I received advice to clue users in to the fact that they needed to ask a yes or no question, and the input box seemed like the best place to do that.   
