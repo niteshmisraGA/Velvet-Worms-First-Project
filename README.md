@@ -33,23 +33,18 @@ Desktop:
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Save user input history on page
+- Get data from external API
+- Take in user input and do a conditional check
+- Render data on page if user input meets a condition
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
+- Add second API to expand GIF choices
 - Use local storage to save user favorites
+- Implement AI complex enough to answer questions more complex than a yes or no.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -89,12 +84,23 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description. I'm particularly fond of this function.  It is admittedly a bit chunky but its gone thru several iterations and it includes a few intricate functions.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+async function getAnswer(event) {
+  try {
+    event.preventDefault();
+    removeOldError();
+    removeOldImages();
+    let isQuestion = questionBox.value;
+    if (isQuestion.includes('?')) {
+      let yesOrNo = await axios.get(`https://boiling-mountain-84087.herokuapp.com/http://yesno.wtf/api`);
+      let answer = yesOrNo.data;
+      console.log(answer);
+      displayAnswer(answer);
+    } else {
+      notAQ();
+    }
 ```
 
 ## Change Log

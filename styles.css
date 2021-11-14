@@ -12,6 +12,7 @@ h5 {
   text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
   margin-top: 10px;
   margin-left: 50px;
+  font-family: 'merienda', 'sans-serif';
 }
 h1 {
   justify-content: left;
@@ -49,6 +50,16 @@ p {
   bottom: 0;
   left: 0;
 }
+.footer {
+  position: fixed;
+  font-size: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-shadow: 0px;
+  text-align: center;
+}
 .userQuestion{
   display: flex;
   justify-content: center;
@@ -77,6 +88,7 @@ p {
     text-align: center;
     text-justify: inter-word;
     margin-left: 0;
+    font-size: 12px;
   }
   .siteName{
     display: flex;
