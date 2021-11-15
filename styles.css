@@ -55,6 +55,8 @@ p {
   font-size: 15px;
   left: 0;
   bottom: 0;
+  
+  height: 15%;
   width: 100%;
   color: gray;
   text-shadow: 0px;
@@ -100,4 +102,9 @@ p {
     display: flex;
     justify-content: center;
   }
+}
+
+.linked-in{
+  font-size: 30px;
+  color: antiquewhite;
 }

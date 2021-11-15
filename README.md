@@ -75,12 +75,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 4hrs| N/A | N/A |
-| Working with API | H | 3hrs| N/A | N/A |
-| Initial JS | H | 5hrs| N/A | N/A |
-| CSS Styling | H | 5hrs| N/A | N/A |
-| non-MVP Goals | H | 5hrs| N/A | N/A |
-| Total | H | 22hrs| N/A | N/A |
+| Adding Form | H | 4hrs| 4hrs | 4hrs |
+| Working with API | H | 3hrs| 3.5hrs | 3.5hrs|
+| Initial JS | H | 5hrs| 5.5hrs | 5.5hrs |
+| CSS Styling | H | 5hrs|8hrs |8hrs |
+| non-MVP Goals | M | 5hrs| N/A | N/A |
+| Total | H | 22hrs| 21hrs| 21hrs|
 
 ## Code Snippet
 
