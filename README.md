@@ -53,7 +53,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 |JNov. 8| Core Application Structure (HTML, CSS, etc.) | Complete
 |Nov. 9| Pseudocode / actual code | Complete
 |Nov. 10| Initial Clickable Model  | Complete
-|Nov. 11| MVP | Completish
+|Nov. 11| MVP | Complete
 |Nov. 12| Presentations | Incomplete
 
 ## Priority Matrix
