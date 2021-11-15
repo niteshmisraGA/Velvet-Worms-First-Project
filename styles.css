@@ -7,6 +7,10 @@ html, body {
 
 body {
   background-image: url('/17520.jpg');
+  /* background-image: url('https://ibb.co/WD2PQQD');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
 }
 h5 {
   text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;

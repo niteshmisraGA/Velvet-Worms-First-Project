@@ -23,7 +23,7 @@ async function getAnswer(event) {
   } catch (error) {
     console.log(error);
   } finally {
-    console.log('fin.');
+
   }
 }
 
