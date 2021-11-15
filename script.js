@@ -44,7 +44,7 @@ function displayAnswer(data) {
 
 // This func is invoked on the condition that user's input lacks a "?," and returns a sort of error message.
 function notAQ() {
-  let notAQRes = ["Please ask a question.", "Did you say something?", "???"];
+  let notAQRes = ["Ask a question.", "Did you say something?", "---> ? <---"];
   // Picks a random message from the above arr to display.
   let arrayMath = Math.floor(Math.random() * notAQRes.length)
   let notAQuestion = document.createElement("p");
