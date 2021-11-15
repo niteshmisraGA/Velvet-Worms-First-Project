@@ -1,7 +1,6 @@
 # Project Overview
 ## Project Name
-"Ask The Universe"
-https://niteshmisraga.github.io/Velvet-Worms-First-Project/
+["Ask The Universe"](https://niteshmisraga.github.io/Velvet-Worms-First-Project/)
 ## Project Description
 
 In this project I will create a site that will 'answer' a question with either a 'Yes' or 'No' accompanied with an embedded GIF.  A user's will be confirmed as a question by checking for the presence of a '?'. User input will be confirmed as a question before the answer is given to the page.
